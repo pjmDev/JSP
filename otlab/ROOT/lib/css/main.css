@@ -1,0 +1,192 @@
+﻿//body {margin:0; padding:0; font-family:Dotum; }
+body {margin:0; padding:0; font-family:nanumGothic, nanum Gothic, Dotum; }
+
+a {color:#000000;}
+a:link{ color:#000000; text-decoration:none;}
+a:hover { font-weight:bold; }
+a:active { text-decoration:underline; }
+a:visited { text-decoration:none; }
+
+.maincont {width:1001px; margin:0; padding:0; }
+
+.bbs {width:900px; margin:0; padding:0;}
+.bbs th {margin:-1; padding:5px 0; border-top:2px solid #666; border-bottom:1px solid #666; height:15px;}
+.bbs td {margin:-1; padding:5px 0; border-bottom:1px solid #666; height:10px;}
+
+.bbsp {width:900px; margin:0; padding:0;}
+.bbsp th {padding:5px 0; border-top:2px solid #666; height:15px;}
+.bbsp td {padding:5px 0; border-bottom:1px solid #666; height:10px;}
+
+.photol {margin:5px 5px 5px 5px; padding:10px 0; border-top:1px solid gray; border-bottom:1px solid gray;}
+
+.topframe {background:black; color:#ffffff; margin:0 0 0 0; width:100%;  height:2px; padding: .8em 0 0 .5em; position:fixed;}
+
+
+.iclab_wrap {width:900px; float:center; margin:auto; ; overflow: hidden; padding: 0; position:relative; z-index:0;}
+
+.lc_title_left {width:470px; position:relative; float:left; text-align:left; font-weight:bold; font-size:20px; line-height:40px; color:#008000;}
+.lc_title_right {width:500px; float:right; text-align:left; font-weight:bold; font-size:20px; line-height:40px; color:#008000;}
+
+.banner_box {width:470px; position:relative; float:left; text-align:left;}
+
+.footer_box {height:100px; margin-top:40px; background:#555; padding-top:5px;}
+.footer_box_wrap {width:800px; text-align:left; margin:auto;}
+
+.footer_box p {text-align:left; line-height:20px; color:#fff; font-weight:bold; }
+
+
+.student_box {width:550px; margin:auto; border:1px solid #ddd; padding:22px 20px 20px 20px; margin-bottom:10px; overflow:hidden;}
+.img_box {width:100px; height:133px; float:left;}
+
+.text_box {width:400px; height:133px; float:left; margin-left:30px; position:relative; }
+
+.text_box_l { }
+.text_box_t {width:80px; height:106px; float:left; position:relative;}
+.text_box_s {width:310px; height:106px; float:left; position:relative;}
+
+.text_title {font-family:nanum Gothic, nanumGothic, Dotum; font-size:20px; font-weight:bold;}
+.text_subt {width:120px; font-family:nanum Gothic, nanumGothic, Dotum; font-size:15px; font-weight:bold;display:inline-block;}
+.text_text {font-family:nanumGothic; font-size:15px;display:inline-block;}
+
+
+    .topMenu {
+            height: 40px;  
+            width: 100%;       /* [변경] 하위 메뉴와 동일하게 맞춤 */
+            position: relative;
+            background-color: #fff; /* [추가] 늘어난만큼 배경색도 보이도록 수정 */
+            text-align:center;
+            margin:auto;
+            
+    }
+    .topMenu ul {           /* 메인 메뉴 안의 ul을 설정함: 상위메뉴의 ul+하위 메뉴의 ul */
+        list-style-type: none;  
+        margin: 0px;            
+        padding: 0px;      
+      	display:inline-block;
+    }
+    .topMenu ul li {            /* 메인 메뉴 안에 ul 태그 안에 있는 li 태그의 스타일 적용(상위/하위메뉴 모두) */    
+        
+        float: left;                
+        line-height: 40px;          
+        vertical-align: middle;     
+        text-align: center;         
+        position: relative;     
+    }
+    
+    .menuLink, .submenuLink {           /* 상위 메뉴와 하위 메뉴의 a 태그에 공통으로 설정할 스타일 */
+        text-decoration:none;               
+        display: block;                     
+        
+        font-size: 15px;                    
+        font-weight: bold;                  
+        font-family: nanum Gothic, nanumGothic, Dotum;
+    }
+    .menuLink {     /* 상위 메뉴의 글씨색을 흰색으로 설정 */
+        
+    }
+    .topMenuLi:hover .menuLink {    /* 상위 메뉴의 li에 마우스오버 되었을 때 스타일 설정 */
+        color: red;                 
+        
+    }
+    .longLink {     /* 좀 더 긴 메뉴 스타일 설정 */
+        width: 120px;   
+    }
+.submenuLink {          /* 하위 메뉴의 a 태그 스타일 설정 */  
+        background-color: #2d2d2d;      /* [변경] 배경색 변경 */
+        -border: solid 1px black;    /* [삭제] 테두리 삭제 */
+        -margin-right: -1px;         /* [삭제] 공백 보정 삭제 */
+    }
+    .submenu {              /* 하위 메뉴 스타일 설정 */
+        position: absolute;     
+        height: 0px;            
+        overflow: hidden;       
+        transition: height .2s; 
+        -webkit-transition: height .2s; 
+        -moz-transition: height .2s; 
+        -o-transition: height .2s; 
+        width: 100%;           
+        left: 0;                
+        background-color: #2D2D2D; /* [추가] 하위 메뉴 전체에 배경색 설정 */
+        text-align:center;
+    }
+    .submenu ul {
+        display: inline-block;
+    }
+    .submenu li {
+        
+    }
+    .topMenuLi:hover .submenu { 
+    	color: white;
+        height: 40px;           
+    }
+    .submenuLink:hover {        
+        color: white;                 
+        background-color: #2d2d2d;  
+    }
+    
+    
+    
+    .img{
+    	
+    position: relative;
+    background-image: url(/data/image/main12.jpg);                                                               
+    float : left;
+    width : 460px;
+    height: 300px;
+    padding-left:20px;
+    background-size: cover;
+    
+    font-size: 15px;                    
+    font-weight: solid;                  
+    font-family: nanum Gothic, nanumGothic, Dotum;
+    }
+    
+    .img a {
+    font-size: 15px;                    
+    font-weight: solid;                 
+    color:gray; 
+    font-family: nanum Gothic, nanumGothic, Dotum;
+    }
+    
+    
+		.img2{
+    position: relative;
+    background-image: url(/data/image/main22.jpg);                                                               
+    float : left;
+    width : 460px;
+    height: 300px;
+    padding-left:20px;
+    margin-left:40px;
+    background-size: cover;
+    
+    font-size: 15px;                    
+    font-weight: solid;                  
+    font-family: nanum Gothic, nanumGothic, Dotum;
+    }
+    .img2 a {
+    font-size: 15px;                    
+    font-weight: solid;                 
+    color:gray; 
+    font-family: nanum Gothic, nanumGothic, Dotum;
+    }
+    .img3{
+    position: relative;
+    background-image: url(/data/image/main32.jpg);                                                               
+    float : left;
+    width : 900px;
+    height: 300px;
+    padding-left:20px;
+    margin-left:1px;
+    background-size: cover;
+    
+    font-size: 15px;                    
+    font-weight: solid;                  
+    font-family: nanum Gothic, nanumGothic, Dotum;
+    }
+    .img3 a {
+    font-size: 15px;                    
+    font-weight: solid;                 
+    color:gray; 
+    font-family: nanum Gothic, nanumGothic, Dotum;
+    }
+    

@@ -1,0 +1,55 @@
+﻿body {margin:0; padding:0; font-family:nanumGothic; overflow-y:auto;}
+
+
+a {color:#000000;}
+a:link{ color:#000000; text-decoration:none;}
+a:hover { font-weight:bold; }
+a:active { text-decoration:underline; }
+a:visited { text-decoration:none; }
+a:focus { outline : none; }
+
+
+.maincont {width:1001px; margin:0; padding:0; }
+
+.bbs {width:900px; margin:0; padding:0;}
+.bbs th {margin:-1; padding:5px 0; border-top:2px solid #666; border-bottom:1px solid #666; height:15px;}
+.bbs td {margin:-1; padding:5px 0; border-bottom:1px solid #666; height:10px;}
+
+.bbsp {width:900px; margin:0; padding:0;}
+.bbsp th {padding:5px 0; border-top:2px solid #666; height:15px;}
+.bbsp td {padding:5px 0; border-bottom:1px solid #666; height:10px;}
+
+.photol {margin:5px 5px 5px 5px; padding:10px 0; border-top:1px solid gray; border-bottom:1px solid gray;}
+
+.topframe {background:black; color:#ffffff; margin:0 0 0 0; width:100%;  height:2px; padding: .8em 0 0 .5em; position:fixed;}
+
+
+.anubis_wrap {width:900px; float:center; margin:auto; padding: 0; position:relative; z-index:0;}
+
+.lc_title_left {width:470px; position:relative; float:left; text-align:left; font-weight:bold; font-size:20px; line-height:40px; color:#008000;}
+.lc_title_right {width:500px; float:right; text-align:left; font-weight:bold; font-size:20px; line-height:40px; color:#008000;}
+
+.banner_box {width:470px; position:relative; float:left; text-align:left;}
+
+.footer_box {height:125px; margin-top:30px; background:#fff; padding-top:5px;}
+.footer_box_wrap {width:800px; text-align:left; margin:auto;}
+
+.footer_box p {text-align:left; line-height:20px; color:#fff; font-weight:bold; }
+
+
+.student_box {width:550px; margin:auto; border:1px solid #ddd; padding:22px 20px 20px 20px; margin-bottom:10px; overflow:hidden;}
+.img_box {width:100px; height:133px; float:left;}
+
+.text_box {width:400px; height:133px; float:left; margin-left:30px; position:relative; }
+
+.text_box_l { }
+.text_box_t {width:80px; height:106px; float:left; position:relative;}
+.text_box_s {width:310px; height:106px; float:left; position:relative;}
+
+.text_title {font-family:nanumGothic; font-size:20px; font-weight:bold;}
+.text_subt {width:120px; font-family:nanumGothic; font-size:15px; font-weight:bold;display:inline-block;}
+.text_text {font-family:nanumGothic; font-size:15px;display:inline-block;}
+
+
+
+
